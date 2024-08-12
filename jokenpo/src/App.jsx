@@ -1,4 +1,4 @@
-import Home from './pages/jokenpo'
+import Home from '../src/pages/jokenpo/index.jsx'
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 import './App.css'
 

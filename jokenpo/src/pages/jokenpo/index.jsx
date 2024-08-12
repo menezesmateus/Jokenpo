@@ -34,7 +34,7 @@ function Jokenpo() {
     }
 
     const handleClick = (escolhaJogador) => {
-        if (!iniciarJogo || jogoTerminado) return; // Não permite jogar antes de iniciar o jogo ou após o jogo terminar
+        if (!iniciarJogo || jogoTerminado) return;
         const escolhaComputador = Math.floor(Math.random() * 3)
         setEscolha(escolhaJogador)
         setEscolhaAleatoria(escolhaComputador)
